@@ -1,0 +1,21 @@
+# Core dependencies
+numpy
+pandas
+scikit-learn
+torch
+transformers
+sentence-transformers
+faiss-cpu
+whoosh
+
+# API dependencies
+fastapi
+uvicorn
+
+# For graph-based retrieval (optional)
+networkx
+
+# For voice input (optional)
+openai-whisper
+sounddevice
+soundfile

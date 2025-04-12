@@ -4,8 +4,7 @@ API server for the code retrieval system
 import os
 import sys
 import json
-
-# Add project root directory to Python path
+import uvicorn
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
 sys.path.insert(0, project_root)
 from fastapi import FastAPI, Query, HTTPException, Request
